@@ -1,0 +1,53 @@
+@media (max-width: 600px) {
+    .name {
+        display: none;
+    }
+    /*ẨN TÊN KHI CHUYỂN VỀ MOBILE */
+    .nav {display: block;
+        padding: 30px;
+        margin: 20px;
+        text-align: left;
+    }
+
+    /*GỘP THÀNH 1 CỘT, CĂN CHỈNH LỀ */
+    #banner { padding: 20px}
+    .thong-tin {
+        display: block;
+        width: 100%;
+        padding: 20px;
+    }
+    /*CHIA THÀNH 2 CỘT */
+    .nt-40 {
+        padding: 20px;
+    }
+    #personal-info {
+        margin-top: 60px;
+    }
+    #target {
+        padding-right: 20px
+    ;
+    }
+    .thong-tin-chung {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .chung-chi {
+        display: grid;
+        grid-template-columns: 100%;
+
+    }
+    /*CĂN CHỈNH THÀNH 1 CỘT */
+    .img-container {
+        border-bottom-style: groove;
+        border-color: orange;
+        border-width: 2px;
+        padding-top: 30px;
+    }
+    .project {display: block;
+    }
+    /*CĂN CHỈNH THÀNH 1 CỘT */
+    .project-mini {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+}

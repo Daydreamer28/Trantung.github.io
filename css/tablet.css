@@ -1,0 +1,32 @@
+@media  (max-width: 992px) {
+    #nav-bar {
+
+    }
+   .name {
+       display: none;
+   }
+    #banner { padding: 20px}
+    /*ẨN TÊN KHI CHUYỂN VỀ TABLET */
+    .thong-tin-chung {
+        display: grid;
+        flex-wrap: wrap;
+        padding: 50px;
+        grid-template-columns: 50% 50%;
+
+    }
+    /*CHIA THÀNH 2 CỘT, CUỘN THEO CHIỀU DỌC*/
+    .img-pro .img-pro-1
+    {
+        object-fit: cover;
+    }
+    /*CHỈNH SỬA ĐỂ ẢNH KHÔNG BỊ TRÀN */
+    .im
+    .link-container {
+        padding-top: 20px;
+    }
+    #project {display: grid;
+        margin-bottom: 40px;
+    }
+    /*CHỈNH SỬA ĐỂ CHIA CỘT */
+}
+

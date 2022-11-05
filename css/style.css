@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: auto;
+
+  display: block;
+
+  padding: 30px 50px;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+i {
+  color: #199cdb;
+}
+/*đổi  các icon về cùng 1 màu*/
+
+.blue-bar {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.grey-bar {
+  background: #66747a;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 45px;
+}
+/*span tạo 2 màu khác nhau để tạo thành cấp độ kĩ năng*/
+a {
+  text-decoration: none;
+}
+/* xóa gạch dưới chân các link*/
+h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+#banner {
+  position: relative;
+  text-align: center;
+  padding: 50px;
+}
+/*set up đặt text ở giữa*/
+#banner-text {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #aa4d4d;
+}
+.nav {
+  display: flex; justify-content: center;
+}
+/*chèn text vào ảnh và căn giữa, đổi màu chữ*/
+.thong-tin {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 30px;
+  padding: 70px 50px;
+}
+.mt-40 info {padding: 0;}
+/* Tạo 2 hàng, tạo khoảng trống giữa các hàng, chỉnh sửa padding của nội dung top bottom, right left */
+.shortcut {
+    padding-top: 30px;
+}
+.info, .link-li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* Bỏ chấm đầu các list, xóa khoảng trống đầu list ở phần thônh tin*/
+.thong-tin-chung {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  padding: 50px 120px;
+}
+/* tạo cột, hàng, căn chỉnh padding*/
+.thong-tin-con {
+  border-style: groove;
+  border-color: #edf1f3;
+  padding: 30px 20px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  align-content: flex-start;
+}
+
+.ic-toolbox,
+.ic-tools-2,
+.ic-mic,
+.ic-pencil,
+.ic-telescope {
+  font-size: 45px;
+  color: #66747a;
+}
+/* phóng to icon class thong-tin-con, đổi màu*/
+.so-thich-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+.so-thich {background-color: white;
+border-color: #199cdb;
+  border-radius: 50%;
+}
+.ic-megaphone, .ic-strategy, .ic-hotairballoon, .ic-basket {
+  width: 40px;
+  height: 30px;
+  font-size: 30px;
+  border-radius: 50%;
+  border-color: #199cdb;
+}
+/* Làm như hướng dẫn nhưng không tạo đc border cho icon, đã thử việc cho icon vào 1 div và đổi màu div đó rồi tạo border nhưng kh thành công*/
+
+.chung-chi {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  border-color: #d6c08d;
+  padding: 20px;
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+}
+.img-cer {
+  width: 75%;
+  height: 75%;
+}
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.img-pro {
+  width: 100%;
+  height: 50%;
+}
+.img-pro-1 {
+  width: 100%;
+  height: 50%;
+}
+.nam {
+  background-color:#199cdb; border-radius: 15px; width: 15%;text-align: center;
+}
+.nam-container {
+  display: flex; flex-direction: row
+}
+/* Đưa các div hiển thị theo chiều ngang*/
+table {
+
+
+}
+.link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
